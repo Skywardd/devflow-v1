@@ -1,6 +1,10 @@
 @import "tailwindcss";
 /* Define your theme variables */
-@plugin "tailwindcss/typography"
+@plugin "@tailwindcss/typography";
+
+body {
+  font-family: "Inter", sans-serif;
+}
 
 @theme {
   /* Colors */
